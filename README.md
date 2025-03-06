@@ -12,10 +12,10 @@ ChatGPT Conversations to Markdown is a Python script that converts your exported
 
 ## Prerequisite预备知识/先修科目
 
-- [什么是==.json==文件格式？](notes/what_is_json.md)
-- [什么是==.markdown==文件格式？](notes/what_is_markdown.md)
-- [什么是==config.json==(配置文件)？](notes/role_of_config_file.md)
-- [json转md的源代码，详细解析](notes/src_analysis.md)
+- [什么是`.json`文件格式？](notes/what_is_json.md)
+- [什么是`.markdown`文件格式？](notes/what_is_markdown.md)
+- [什么是`config.json`(配置文件)？](notes/role_of_config_file.md)
+- [`json`转`md`的源代码，详细解析](notes/src_analysis.md)
 
 
 
@@ -28,7 +28,7 @@ ChatGPT Conversations to Markdown is a Python script that converts your exported
 * Customize user and assistant names <u>using a configuration file</u>
 * Include or exclude date in the output Markdown files
 * Customize the format of file names, dates, and message separators
-* Process **individual** JSON files ==or== **all** JSON files in a directory
+* Process **individual** JSON files OR **all** JSON files in a directory
 
 ## Installation如何克隆此代码仓库到本地进行编辑/使用？
 1. Clone the repository or download the ZIP file and extract it to a folder on your computer.
@@ -44,13 +44,17 @@ cd ChatGPT_Conversations_To_Markdown
 python -m venv venv
 ```
 4. Activate the virtual environment:
-```
+```raw
 # For Windows:
 venv\Scripts\activate
+```
 
+```raw
 # For Linux or macOS:
 source venv/bin/activate
 ```
+
+
 
 5. Install the required Python dependencies:
 ```
