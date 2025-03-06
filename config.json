@@ -1,12 +1,16 @@
 {
-  "user_name": "YourName",
+  "user_name": "Will",
   "assistant_name": "ChatGPT",
-  "input_mode": "directory",
-  "input_path": "C:\\GitHubProjects\\ChatGPT_Conversations_To_Markdown\\JsonFiles",
-  "output_directory": "C:\\GitHubProjects\\ChatGPT_Conversations_To_Markdown\\MarkdownFiles",
-  "date_format": "%m-%d-%Y",
+  "input_mode": "file",
+
+  "input_path": "io_in/gpt_export/conversations.json",
+  "output_directory": "io_out",
+  
+  "date_format": "%Y-%m-%d",
   "file_name_format": "{title}",
+
   "include_date": true,
   "message_separator": "\n\n",
+
   "skip_empty_messages": true
 }

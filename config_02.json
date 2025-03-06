@@ -1,0 +1,16 @@
+{
+  "user_name": "Will",
+  "assistant_name": "ChatGPT",
+  "input_mode": "file",
+
+  "input_path": "io_in/gpt_export/conversations.json",
+  "output_directory": "io_out_02",
+  
+  "date_format": "%Y-%m-%d",
+  "file_name_format": "{date}_{title}",
+
+  "include_date": true,
+  "message_separator": "\n\n",
+
+  "skip_empty_messages": true
+}
